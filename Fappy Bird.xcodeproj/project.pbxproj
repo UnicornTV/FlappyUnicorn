@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87F12C821D9E0DD500309073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F12C811D9E0DD500309073 /* AppDelegate.swift */; };
+		87F12C861D9E0DD600309073 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87F12C851D9E0DD600309073 /* Actions.sks */; };
+		87F12C881D9E0DD600309073 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F12C871D9E0DD600309073 /* GameScene.swift */; };
+		87F12C8A1D9E0DD600309073 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F12C891D9E0DD600309073 /* GameViewController.swift */; };
+		87F12C8D1D9E0DD600309073 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F12C8B1D9E0DD600309073 /* Main.storyboard */; };
+		87F12C8F1D9E0DD600309073 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F12C8E1D9E0DD600309073 /* Assets.xcassets */; };
+		87F12C921D9E0DD600309073 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F12C901D9E0DD600309073 /* LaunchScreen.storyboard */; };
+		87F12C9D1D9E0DD600309073 /* Fappy_BirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F12C9C1D9E0DD600309073 /* Fappy_BirdTests.swift */; };
+		87F12CA81D9E0DD600309073 /* Fappy_BirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F12CA71D9E0DD600309073 /* Fappy_BirdUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87F12C991D9E0DD600309073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F12C761D9E0DD500309073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F12C7D1D9E0DD500309073;
+			remoteInfo = "Fappy Bird";
+		};
+		87F12CA41D9E0DD600309073 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87F12C761D9E0DD500309073 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87F12C7D1D9E0DD500309073;
+			remoteInfo = "Fappy Bird";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87F12C7E1D9E0DD500309073 /* Fappy Bird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fappy Bird.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F12C811D9E0DD500309073 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87F12C851D9E0DD600309073 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		87F12C871D9E0DD600309073 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		87F12C891D9E0DD600309073 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		87F12C8C1D9E0DD600309073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87F12C8E1D9E0DD600309073 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87F12C911D9E0DD600309073 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87F12C931D9E0DD600309073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F12C981D9E0DD600309073 /* Fappy BirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fappy BirdTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F12C9C1D9E0DD600309073 /* Fappy_BirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fappy_BirdTests.swift; sourceTree = "<group>"; };
+		87F12C9E1D9E0DD600309073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F12CA31D9E0DD600309073 /* Fappy BirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fappy BirdUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F12CA71D9E0DD600309073 /* Fappy_BirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fappy_BirdUITests.swift; sourceTree = "<group>"; };
+		87F12CA91D9E0DD600309073 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87F12C7B1D9E0DD500309073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F12C951D9E0DD600309073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F12CA01D9E0DD600309073 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87F12C751D9E0DD500309073 = {
+			isa = PBXGroup;
+			children = (
+				87F12C801D9E0DD500309073 /* Fappy Bird */,
+				87F12C9B1D9E0DD600309073 /* Fappy BirdTests */,
+				87F12CA61D9E0DD600309073 /* Fappy BirdUITests */,
+				87F12C7F1D9E0DD500309073 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87F12C7F1D9E0DD500309073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87F12C7E1D9E0DD500309073 /* Fappy Bird.app */,
+				87F12C981D9E0DD600309073 /* Fappy BirdTests.xctest */,
+				87F12CA31D9E0DD600309073 /* Fappy BirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87F12C801D9E0DD500309073 /* Fappy Bird */ = {
+			isa = PBXGroup;
+			children = (
+				87F12C811D9E0DD500309073 /* AppDelegate.swift */,
+				87F12C851D9E0DD600309073 /* Actions.sks */,
+				87F12C871D9E0DD600309073 /* GameScene.swift */,
+				87F12C891D9E0DD600309073 /* GameViewController.swift */,
+				87F12C8B1D9E0DD600309073 /* Main.storyboard */,
+				87F12C8E1D9E0DD600309073 /* Assets.xcassets */,
+				87F12C901D9E0DD600309073 /* LaunchScreen.storyboard */,
+				87F12C931D9E0DD600309073 /* Info.plist */,
+			);
+			path = "Fappy Bird";
+			sourceTree = "<group>";
+		};
+		87F12C9B1D9E0DD600309073 /* Fappy BirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				87F12C9C1D9E0DD600309073 /* Fappy_BirdTests.swift */,
+				87F12C9E1D9E0DD600309073 /* Info.plist */,
+			);
+			path = "Fappy BirdTests";
+			sourceTree = "<group>";
+		};
+		87F12CA61D9E0DD600309073 /* Fappy BirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87F12CA71D9E0DD600309073 /* Fappy_BirdUITests.swift */,
+				87F12CA91D9E0DD600309073 /* Info.plist */,
+			);
+			path = "Fappy BirdUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87F12C7D1D9E0DD500309073 /* Fappy Bird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F12CAC1D9E0DD600309073 /* Build configuration list for PBXNativeTarget "Fappy Bird" */;
+			buildPhases = (
+				87F12C7A1D9E0DD500309073 /* Sources */,
+				87F12C7B1D9E0DD500309073 /* Frameworks */,
+				87F12C7C1D9E0DD500309073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fappy Bird";
+			productName = "Fappy Bird";
+			productReference = 87F12C7E1D9E0DD500309073 /* Fappy Bird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87F12C971D9E0DD600309073 /* Fappy BirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F12CAF1D9E0DD600309073 /* Build configuration list for PBXNativeTarget "Fappy BirdTests" */;
+			buildPhases = (
+				87F12C941D9E0DD600309073 /* Sources */,
+				87F12C951D9E0DD600309073 /* Frameworks */,
+				87F12C961D9E0DD600309073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F12C9A1D9E0DD600309073 /* PBXTargetDependency */,
+			);
+			name = "Fappy BirdTests";
+			productName = "Fappy BirdTests";
+			productReference = 87F12C981D9E0DD600309073 /* Fappy BirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87F12CA21D9E0DD600309073 /* Fappy BirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F12CB21D9E0DD600309073 /* Build configuration list for PBXNativeTarget "Fappy BirdUITests" */;
+			buildPhases = (
+				87F12C9F1D9E0DD600309073 /* Sources */,
+				87F12CA01D9E0DD600309073 /* Frameworks */,
+				87F12CA11D9E0DD600309073 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87F12CA51D9E0DD600309073 /* PBXTargetDependency */,
+			);
+			name = "Fappy BirdUITests";
+			productName = "Fappy BirdUITests";
+			productReference = 87F12CA31D9E0DD600309073 /* Fappy BirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87F12C761D9E0DD500309073 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Unicorn;
+				TargetAttributes = {
+					87F12C7D1D9E0DD500309073 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DAC62CF44G;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					87F12C971D9E0DD600309073 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87F12C7D1D9E0DD500309073;
+					};
+					87F12CA21D9E0DD600309073 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87F12C7D1D9E0DD500309073;
+					};
+				};
+			};
+			buildConfigurationList = 87F12C791D9E0DD500309073 /* Build configuration list for PBXProject "Fappy Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87F12C751D9E0DD500309073;
+			productRefGroup = 87F12C7F1D9E0DD500309073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87F12C7D1D9E0DD500309073 /* Fappy Bird */,
+				87F12C971D9E0DD600309073 /* Fappy BirdTests */,
+				87F12CA21D9E0DD600309073 /* Fappy BirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87F12C7C1D9E0DD500309073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F12C8D1D9E0DD600309073 /* Main.storyboard in Resources */,
+				87F12C8F1D9E0DD600309073 /* Assets.xcassets in Resources */,
+				87F12C921D9E0DD600309073 /* LaunchScreen.storyboard in Resources */,
+				87F12C861D9E0DD600309073 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F12C961D9E0DD600309073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F12CA11D9E0DD600309073 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87F12C7A1D9E0DD500309073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F12C881D9E0DD600309073 /* GameScene.swift in Sources */,
+				87F12C8A1D9E0DD600309073 /* GameViewController.swift in Sources */,
+				87F12C821D9E0DD500309073 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F12C941D9E0DD600309073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F12C9D1D9E0DD600309073 /* Fappy_BirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F12C9F1D9E0DD600309073 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87F12CA81D9E0DD600309073 /* Fappy_BirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87F12C9A1D9E0DD600309073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F12C7D1D9E0DD500309073 /* Fappy Bird */;
+			targetProxy = 87F12C991D9E0DD600309073 /* PBXContainerItemProxy */;
+		};
+		87F12CA51D9E0DD600309073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87F12C7D1D9E0DD500309073 /* Fappy Bird */;
+			targetProxy = 87F12CA41D9E0DD600309073 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87F12C8B1D9E0DD600309073 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F12C8C1D9E0DD600309073 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87F12C901D9E0DD600309073 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87F12C911D9E0DD600309073 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87F12CAA1D9E0DD600309073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F12CAB1D9E0DD600309073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87F12CAD1D9E0DD600309073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = "Fappy Bird/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unicorn.xxx.Fappy-Bird";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87F12CAE1D9E0DD600309073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DAC62CF44G;
+				INFOPLIST_FILE = "Fappy Bird/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unicorn.xxx.Fappy-Bird";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87F12CB01D9E0DD600309073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fappy BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unicorn.xxx.Fappy-BirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fappy Bird.app/Fappy Bird";
+			};
+			name = Debug;
+		};
+		87F12CB11D9E0DD600309073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fappy BirdTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unicorn.xxx.Fappy-BirdTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fappy Bird.app/Fappy Bird";
+			};
+			name = Release;
+		};
+		87F12CB31D9E0DD600309073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Fappy BirdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unicorn.xxx.Fappy-BirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fappy Bird";
+			};
+			name = Debug;
+		};
+		87F12CB41D9E0DD600309073 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Fappy BirdUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Unicorn.xxx.Fappy-BirdUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fappy Bird";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87F12C791D9E0DD500309073 /* Build configuration list for PBXProject "Fappy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F12CAA1D9E0DD600309073 /* Debug */,
+				87F12CAB1D9E0DD600309073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F12CAC1D9E0DD600309073 /* Build configuration list for PBXNativeTarget "Fappy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F12CAD1D9E0DD600309073 /* Debug */,
+				87F12CAE1D9E0DD600309073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F12CAF1D9E0DD600309073 /* Build configuration list for PBXNativeTarget "Fappy BirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F12CB01D9E0DD600309073 /* Debug */,
+				87F12CB11D9E0DD600309073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87F12CB21D9E0DD600309073 /* Build configuration list for PBXNativeTarget "Fappy BirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87F12CB31D9E0DD600309073 /* Debug */,
+				87F12CB41D9E0DD600309073 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87F12C761D9E0DD500309073 /* Project object */;
+}
